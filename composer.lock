@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b56bfb5d21eaae286e532c3ed2f8941",
+    "content-hash": "7e3fe24d941e1ccfde5b9c0a2ef56372",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -757,6 +757,52 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "haruncpi/laravel-h",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/haruncpi/laravel-h.git",
+                "reference": "c760ee498453c7c3cbf92b169207c594173ee8cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/haruncpi/laravel-h/zipball/c760ee498453c7c3cbf92b169207c594173ee8cd",
+                "reference": "c760ee498453c7c3cbf92b169207c594173ee8cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Haruncpi\\LaravelH\\LaravelHServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Haruncpi\\LaravelH\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "cc-by-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Md.Harun-Ur-Rashid",
+                    "email": "harun.cox@gmail.com"
+                }
+            ],
+            "description": "A helper package for Laravel Framework",
+            "time": "2020-07-26T06:20:46+00:00"
         },
         {
             "name": "laravel/framework",
